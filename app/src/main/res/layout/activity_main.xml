@@ -23,10 +23,48 @@
         android:textSize="25sp"
         android:layout_marginTop="25dp"/>
     <TableLayout
+        android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tip_id"
+        android:layout_centerHorizontal="true">
         <TableRow>
-            <T
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="50dp"
+                android:background="@drawable/cell_back"
+                android:text="1"/>
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="50dp"
+                android:background="@drawable/cell_back"
+                android:text="1"/>
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="50dp"
+                android:background="@drawable/cell_back"
+                android:text="1"/>
+        </TableRow>
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp">
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="50dp"
+                android:background="@drawable/cell_back"
+                android:text="1"/>
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="50dp"
+                android:background="@drawable/cell_back"
+                android:text="1"/>
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="50dp"
+                android:background="@drawable/cell_back"
+                android:text="1"/>
         </TableRow>
     </TableLayout>
     <Button
